@@ -1,0 +1,63 @@
+==============================================================================
+	=== Simulation: Piraten? Panik! , v_0.1, 2016-10-16 ===
+==============================================================================
+
+____Start____
+
+Simulation: Piraten? Panik! ist ein Spiel.
+Als erstes ist das Logo des Spiels zu sehen. 
+Klickt man auf das Logo erscheint eine Auswahlmöglichkeit zwischen Registrierung und Anmeldung.
+Im Falle der Registrierung erscheint ein neues Fenster, wo dem Spieler dieses ermöglicht wird.
+Ist er registriert, wird er zur Anmeldung zurück auf den Startbildschirm geleitet und das Fenster schließt sich.
+Anschließend kommt eine Einleitung zum Spiel, welche das Prinzip erklärt und einen Character-Editor öffnet.
+Der Editor schließt sich und es öffnet sich die Levelauswahl.
+
+
+____Levelauswahl____
+
+In der Levelauswahl, wird dem Spieler aus einer kleinen Anzhal von Startpunkten die Möglichkeit gegeben wo
+er anfängt.
+Weitere Operationen sind: Levelbestätigen, Ausloggen, Highscoreliste und Einstellungen.
+Betätigt werden anwählbare Operationen mit dem Links-Klick oder einem Touch.
+
+___Das Spiel und Interaktionen____
+
+Wählt man einen Startpunkt aus, kommt man zu einer Art Vorbereitungseditor, in dem man seine Vorkehrungen
+für das kommende Level trifft. 
+Dies geschieht durch ein Drag and Drop System.
+Wenn die Vorkehrungen getroffen sind, start das Level.
+Der Spieler kann auf folgende Weisen mit dem Spiel interagieren:
+	- in einen schmalen Bereichen 2-D bewegen: -durch Klicken, falls eine Mouse vorhanden
+						   -mit WASD oder Pfeiltasten, falls Tastatur vorhanden
+						   -mit Touch Klicks, falls auf einem Smartphone oder ähnlichem gespielt wird
+Man wird durch seine getroffen Vorkehrungen in der Lage sein, Gegnerhorden aufzuhalten indem man bestimmte
+Items nutzt, welche in einer Leiste angeordnet sind, bedienbar durch Linksklick/Touch.
+Jenachdem wie der Spieler seine Vorkehrungen getroffen hat, wird das Spiel darauf reagieren und z.B. Gegner
+kommen lassen, auf die er nicht vorbereitet war, um nächstes mal anders zu überlegen was er mit ins Spiel nimmt.
+Durch gesammelte Punkte im Spiel, kann man sich weitere Items kaufen, indem man auf einen Button klickt, welcher ein Pop-Up Fenster öffnet.
+Übers Internet kann man auch zusammen mit anderen Interagieren, da viele Items erst in Kombination
+bestimmte Ereignisse hervorrufen.
+
+Zudem hat man neben den Items und dem Itemshop folgende Interaktionsmöglichkeiten(dargestellt durch Button):
+
+-Spielereignissübersicht
+-Lobby(um sein aktuelles Spiel für andere betretbar zu machen)
+-Einstellungen
+-Inventar
+-Freundesliste
+-Charakterübersicht
+
+Ein Teil dieser Punkte öffnet sich im gleichen Fenster des Spiels(als Pop-Ups), andere wiederum in einem neuen kleinen Fenster.
+Alle Fenster die Extra erscheinen sind nach Möglichkeit mit Countdown schließbar oder per Klick.
+
+____Ende____
+
+Loggt man sich aus, wird dem Spieler seine Errungenschafften und Erfolge präsentiert.
+Auswahlmöglichkeiten wie Bestenlisten und direkten Freundevergleich stehen zum anwählen zur Verfügung.
+Zudem gibt es noch die Option einem Freund per Mail auf das Spiel hinweisen zu können.
+Die Option sich erneut Einzuloggen steht auch zur Wahl.
+
+
+
+
+
