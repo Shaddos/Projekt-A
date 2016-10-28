@@ -57,7 +57,8 @@ Auswahlmöglichkeiten wie Bestenlisten und direkten Freundevergleich stehen zum a
 Zudem gibt es noch die Option einem Freund per Mail auf das Spiel hinweisen zu können.
 Die Option sich erneut Einzuloggen steht auch zur Wahl.
 
+===================================
+=== Feedback Alpers, 2016-10-28 ===
+===================================
 
-
-
-
+Bitte lesen Sie meine Hinweise aus der Rundmail von letztem Freitag bzw. diesem Montag in Ruhe durch und überarbeiten Sie die Beschreibung entsprechend.
