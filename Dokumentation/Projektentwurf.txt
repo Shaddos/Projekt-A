@@ -1,61 +1,45 @@
 ==============================================================================
-	=== Simulation: Piraten? Panik! , v_0.1, 2016-10-16 ===
+	=== Simulation: Piraten? Panik! , v_0.2, 2016-10-30 ===
 ==============================================================================
 
-____Start____
+//Zusammenfassung
+-Simulation: Piraten? Panik! ist ein Spiel
+--Tower-Defense
+-Gegnerhorden werden auf Pfaden zum Schiff(Spieler) wandern
+-Das Schiff gilt es durch Vorkehrungen zu verteidigen
 
-Simulation: Piraten? Panik! ist ein Spiel.
-Als erstes ist das Logo des Spiels zu sehen. 
-Klickt man auf das Logo erscheint eine Auswahlmöglichkeit zwischen Registrierung und Anmeldung.
-Im Falle der Registrierung erscheint ein neues Fenster, wo dem Spieler dieses ermöglicht wird.
-Ist er registriert, wird er zur Anmeldung zurück auf den Startbildschirm geleitet und das Fenster schließt sich.
-Anschließend kommt eine Einleitung zum Spiel, welche das Prinzip erklärt und einen Character-Editor öffnet.
-Der Editor schließt sich und es öffnet sich die Levelauswahl.
+//Inhalt
+Allgemeines:
+-Es gibt ein Options-Menü
 
+Spielerrelevantes:
+-Es gibt eine Log-In-Maske
+-Es gibt eine Registrierungs-Maske
+-Es gibt eine Highscore-Tabelle
 
-____Levelauswahl____
+Spielfeld:
+-Felder, die einem Ankerplatz entsprechen
+--Auf diesen bleiben die Spieler
+-Felder, die bebaut werden können
+-Felder, die von Gegnern überquert werden
+-Felder, die Schätze besitzen
 
-In der Levelauswahl, wird dem Spieler aus einer kleinen Anzhal von Startpunkten die Möglichkeit gegeben wo
-er anfängt.
-Weitere Operationen sind: Levelbestätigen, Ausloggen, Highscoreliste und Einstellungen.
-Betätigt werden anwählbare Operationen mit dem Links-Klick oder einem Touch.
+Eigenschaften des Spielers:
+-Geld
+-Anzeige für benutzbare Items, mit Anzahl
+-Anzeige für passive Eigenschaften, mit Stufe
+-erreichte Punkte
+-Levelfortschritt
 
-___Das Spiel und Interaktionen____
-
-Wählt man einen Startpunkt aus, kommt man zu einer Art Vorbereitungseditor, in dem man seine Vorkehrungen
-für das kommende Level trifft. 
-Dies geschieht durch ein Drag and Drop System.
-Wenn die Vorkehrungen getroffen sind, start das Level.
-Der Spieler kann auf folgende Weisen mit dem Spiel interagieren:
-	- in einen schmalen Bereichen 2-D bewegen: -durch Klicken, falls eine Mouse vorhanden
-						   -mit WASD oder Pfeiltasten, falls Tastatur vorhanden
-						   -mit Touch Klicks, falls auf einem Smartphone oder ähnlichem gespielt wird
-Man wird durch seine getroffen Vorkehrungen in der Lage sein, Gegnerhorden aufzuhalten indem man bestimmte
-Items nutzt, welche in einer Leiste angeordnet sind, bedienbar durch Linksklick/Touch.
-Jenachdem wie der Spieler seine Vorkehrungen getroffen hat, wird das Spiel darauf reagieren und z.B. Gegner
-kommen lassen, auf die er nicht vorbereitet war, um nächstes mal anders zu überlegen was er mit ins Spiel nimmt.
-Durch gesammelte Punkte im Spiel, kann man sich weitere Items kaufen, indem man auf einen Button klickt, welcher ein Pop-Up Fenster öffnet.
-Übers Internet kann man auch zusammen mit anderen Interagieren, da viele Items erst in Kombination
-bestimmte Ereignisse hervorrufen.
-
-Zudem hat man neben den Items und dem Itemshop folgende Interaktionsmöglichkeiten(dargestellt durch Button):
-
--Spielereignissübersicht
--Lobby(um sein aktuelles Spiel für andere betretbar zu machen)
--Einstellungen
--Inventar
--Freundesliste
--Charakterübersicht
-
-Ein Teil dieser Punkte öffnet sich im gleichen Fenster des Spiels(als Pop-Ups), andere wiederum in einem neuen kleinen Fenster.
-Alle Fenster die Extra erscheinen sind nach Möglichkeit mit Countdown schließbar oder per Klick.
-
-____Ende____
-
-Loggt man sich aus, wird dem Spieler seine Errungenschafften und Erfolge präsentiert.
-Auswahlmöglichkeiten wie Bestenlisten und direkten Freundevergleich stehen zum anwählen zur Verfügung.
-Zudem gibt es noch die Option einem Freund per Mail auf das Spiel hinweisen zu können.
-Die Option sich erneut Einzuloggen steht auch zur Wahl.
+//Abläufe und Funktionalitäten
+-Funktion, die Spieler Felder bebauen lässt
+-Gegnerhorden, die in Intervallen aufs Schiff zusteuern
+-Funktion, die erweiterbare Felder anzeigt
+-Funktion, die auf erweiterbare Passive Fähigkeiten hinweist
+-Bebaute Felder reagieren auf annähernde Ziele
+-besiegte Gegner hinterlassen Gold
+-Funktion, die Gold einsammeln lässt
+-Funktion, die den Spielfortschritt speichern lässt
 
 ===================================
 === Feedback Alpers, 2016-10-28 ===
