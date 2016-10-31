@@ -1,38 +1,34 @@
-=== Strukturelle Elemente, [20.10.2016] ===
+=== Strukturelle Elemente, [30.10.2016] ===
 
 == 01 Schaltflächen ==
-01_01 Logo/Weiterleitung
-01_02 Register/Registrierung
-01_03 Login/Einloggen
-01_04 Auswahl-Look Weiter/ Charactereditor Preset-Wahl
-01_05 Auswahl-Look Zurück/ Charactereditor Preset-Wahl
-01_06 Level 1-n/ Levelauswahl
-01_07 Confirm/ Levelbestätigen
-01_08 Logout/ Ausloggen
-01_09 Settings/ Einstellungen
-01_10 GeheLinks/ Charakter geht links
-01_11 GeheRechts/ Charakter geht rechts
-01_12 GeheHoch/ Charakter geht nach oben
-01_13 GeheRunter/ Charakter geht runter
-01_14 Item 1-10/ Benutze gewähltes Item
-01_15 Itemshop/ kaufe Items(ingamewährung)
-01_16 Whatshappend/ Spielereignissübersicht
-01_17 Lobby/ machts möglich Spieler einzuladen
-01_18 Inventory/ Inventar anzeigen
-01_19 Friendliste/ Freunde anzeigen
-01_20 Charakterübersicht/ charakter plus wichtige informationen anzeigen
-01_21 Ausloggen/ die aktuelle Session beenden
+01_01 TowerAufleveln / Spieler wertet Geschützturm auf
+01_02 PassiveFähigkeitenAufwerten / Spieler wertet passive Fähigkeiten auf
+01_03 BenutzeItem/ Spieler nutzt Item aus dem Inventar 
+01_04 GoldEinsammeln / Einheit sammelt Gold ein
+01_05 TowerBauen / Türme werden
+01_06 SchatzSammeln / Einheit sammelt Schätze ein
+01_07 Speichern / Spieler speichert Fortschritt
+01_08 Inventar / Inventar Öffnen
+01_09 ItemShop / Spieler kann Items auswählen
+01_10 SpielPause / Spieler kann Spiel pausieren
+01_11 SpielBeenden/ Spieler kann Sitzung Beenden
 
-== 02 HyperLink ==
-02_01 Levelname/ Levelbeschreibung
-02_02 Items/ Itembeschreibung
-02_03 Gegnername/ Gegnerbeschreibung
-02_04
-02_05
+== 02 Spielfelder ==
+02_01 TowerFelder/ Felder auf denen Spieler Tower bauen kann
+02_02 SchiffFelder/ Felder auf denen Spieler stehen
+02_03 WasserFelder/ Felder auf denen sich Gegner fortbewegen
+02_04 SchatzFelder/ Felder mit Schätzen
 
-== 03 Drag and Drop ==
-03_01 Itemwahl/ Auswahlfenster
-03_02 Inventar/ Itemmitnahmefenster
+== 03 HyperLink ==
+03_01 Levelname/ Levelbeschreibung
+03_02 Items/ Itembeschreibung
+03_03 Gegnername/ Gegnerbeschreibung
+03_04
+03_05
+
+== 04 optgroup ==
+04_01 Itemwahl/ Auswahlfenster
+04_02 Inventar/ Itemmitnahmefenster
 
 == 102 input/ submit==
 102_01 submit
@@ -50,6 +46,52 @@
 
 == 201 output/ Infos ==
 201_01 type=table / LeaderBoards
-202_02 type=table / Spielereignissübersicht
-202_03 type=table / Direkter Freundevergleich
+ 
 
+===================================================
+=== Microservices, [31.10.2016] ===
+===================================================
+
+
+== [I] - [Registrierungs-Maske] ==
+103_01 type=date /Eingabe Gaburtsdatums
+104_01 type=text /Eingabe des NutzerNamens
+104_02 type=text /Eingabe des Namens
+104_03 type=text /Eingabe des Landes
+105_01 type=password / Eingabe des Passworts
+
+== [II] - [Log-In-Maske] ==
+104_01 type=text /Eingabe des NutzerNamens
+105_01 type=password / Eingabe des Passworts
+
+== [III] - [Infos] ==
+02_01 Levelname/ Levelbeschreibung
+02_02 Items/ Itembeschreibung
+02_03 Gegnername/ Gegnerbeschreibung
+
+== [IV] - [Spielfelder] ==
+02_01 TowerFelder/ Felder auf denen Spieler Tower bauen kann
+02_02 SchiffFelder/ Felder auf denen Spieler stehen
+02_03 WasserFelder/ Felder auf denen sich Gegner fortbewegen
+02_04 SchatzFelder/ Felder mit Schätzen
+
+== [V] - [Türme] ==
+01_01 TowerAufleveln / Spieler wertet Geschützturm auf
+01_05 TowerBauen / Türme werden
+
+== [VI] - [Fähigkeiten] ==
+01_02 PassiveFähigkeitenAufwerten / Spieler wertet passive Fähigkeiten auf
+01_03 BenutzeItem/ Spieler nutzt Item aus dem Inventar 
+01_04 GoldEinsammeln / Einheit sammelt Gold ein
+01_06 SchatzSammeln / Einheit sammelt Schätze ein
+
+== [VII] - [Optionen] ==
+01_07 Speichern / Spieler speichert Fortschritt
+01_10 SpielPause / Spieler kann Spiel pausieren
+01_11 SpielBeenden/ Spieler kann Sitzung Beenden
+
+== [VIII] - [ItemVerwaltung] ==
+01_08 Inventar / Inventar Öffnen
+01_09 ItemShop / Spieler kann Items auswählen
+04_01 Itemwahl/ Auswahlfenster
+04_02 Inventar/ Itemmitnahmefenster
