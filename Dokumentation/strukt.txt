@@ -1,4 +1,4 @@
-=== Strukturelle Elemente, [30.10.2016] ===
+=== Strukturelle Elemente, [13.11.2016] ===
 
 == 01 Schaltflächen ==
 01_01 TowerAufleveln / Spieler wertet Geschützturm auf
@@ -7,13 +7,7 @@
 01_04 GoldEinsammeln / Einheit sammelt Gold ein
 01_05 TowerBauen / Türme werden
 01_06 SchatzSammeln / Einheit sammelt Schätze ein
-01_07 Speichern / Spieler speichert Fortschritt
-01_08 Inventar / Inventar Öffnen
-01_09 ItemShop / Spieler kann Items auswählen
-01_10 SpielPause / Spieler kann Spiel pausieren
-01_11 SpielBeenden/ Spieler kann Sitzung Beenden
-01_12 Highscores / Zeigt Spieler seine Highscores
-01_13 SpielLaden / Lädt gespeichertes Spiel
+01_07 Inventar / Inventar Öffnen
 
 == 02 Spielfelder ==
 02_01 TowerFelder/ Felder auf denen Spieler Tower bauen kann
@@ -22,15 +16,12 @@
 02_04 SchatzFelder/ Felder mit Schätzen
 
 == 03 HyperLink ==
-03_01 Levelname/ Levelbeschreibung
-03_02 Items/ Itembeschreibung
+03_01 Optionen/ zum OptionsMenu gelangen
+03_02 Index/ Zum LogIn gelangen(Ausloggen)
 03_03 Gegnername/ Gegnerbeschreibung
-03_04
-03_05
+03_04 Game/ zum Spiel gelangen
+03_05 Highscores/ zu den Highscores gelangen
 
-== 04 optgroup ==
-04_01 Itemwahl/ Auswahlfenster
-04_02 Inventar/ Itemmitnahmefenster
 
 == 102 input/ submit==
 102_01 submit
@@ -41,83 +32,86 @@
 == 104 input/ text ==
 104_01 type=text /Eingabe des NutzerNamens
 104_02 type=text /Eingabe des Namens
-104_03 type=text /Eingabe des Landes
+104_02 type=text /Eingabe des Nachnamens
+
 
 == 105 input/ password ==
 105_01 type=password / Eingabe des Passworts
 
-== 201 output/ Infos ==
-201_01 type=table / LeaderBoards
+== 106 input/ email ==
+106_01 type=email/ Eingabe der Email
+
+== 107 input/ number ==
+107_01 type=number/ Eingabe des Alters
+
  
 
 ===================================================
-=== Microservices, [31.10.2016] ===
+=== Microservices, [13.11.2016] ===
 ===================================================
 
 
-== [I] - [Registrierungs_Maske] ==
+== [I] - [Log_In_Maske] ==
+104_01 type=text /Eingabe des NutzerNamens
+105_01 type=password / Eingabe des Passworts
+
+== [II] - [Registrierungs_Maske] ==
 103_01 type=date /Eingabe Gaburtsdatums
 104_01 type=text /Eingabe des NutzerNamens
 104_02 type=text /Eingabe des Namens
-104_03 type=text /Eingabe des Landes
+104_02 type=text /Eingabe des Nachnamens
 105_01 type=password / Eingabe des Passworts
+107_01 type=number/ Eingabe des Alters
+106_01 type=email/ Eingabe der Email
 
-== [II] - [Log_In_Maske] ==
-104_01 type=text /Eingabe des NutzerNamens
-105_01 type=password / Eingabe des Passworts
-
-== [III] - [Infos] ==
-02_01 Levelname/ Levelbeschreibung
-02_02 Items/ Itembeschreibung
-02_03 Gegnername/ Gegnerbeschreibung
-
-== [IV] - [Spielfelder] ==
+== [III] - [Spielfelder] ==
 02_01 TowerFelder/ Felder auf denen Spieler Tower bauen kann
 02_02 SchiffFelder/ Felder auf denen Spieler stehen
 02_03 WasserFelder/ Felder auf denen sich Gegner fortbewegen
 02_04 SchatzFelder/ Felder mit Schätzen
 
-== [V] - [Türme] ==
+== [IV] - [Türme] ==
 01_01 TowerAufleveln / Spieler wertet Geschützturm auf
 01_05 TowerBauen / Türme werden
 
-== [VI] - [Fähigkeiten] ==
+== [V] - [Fähigkeiten] ==
 01_02 PassiveFähigkeitenAufwerten / Spieler wertet passive Fähigkeiten auf
 01_03 BenutzeItem/ Spieler nutzt Item aus dem Inventar 
 01_04 GoldEinsammeln / Einheit sammelt Gold ein
 01_06 SchatzSammeln / Einheit sammelt Schätze ein
 
+== [VI] - [Spiel-Optionen] ==
+
+03_05 Highscores/ zu den Highscores gelangen
+03_02 Index/ Zum LogIn gelangen(Ausloggen)
+03_01 Optionen/ zum OptionsMenu gelangen
+
+
 == [VII] - [Optionen] ==
-01_07 Speichern / Spieler speichert Fortschritt
-01_10 SpielPause / Spieler kann Spiel pausieren
-01_11 SpielBeenden/ Spieler kann Sitzung Beenden
-
-== [VIII] - [ItemVerwaltung] ==
-01_08 Inventar / Inventar Öffnen
-01_09 ItemShop / Spieler kann Items auswählen
-04_01 Itemwahl/ Auswahlfenster
-04_02 Inventar/ Itemmitnahmefenster
-
-== [IX] - [Menü] ==
-201_01 type=table / LeaderBoards
-01_12 Highscores / Zeigt Spieler seine Highscores
-01_13 SpielLaden / Lädt gespeichertes Spiel
+03_05 Highscores/ zu den Highscores gelangen
+03_02 Index/ Zum LogIn gelangen(Ausloggen)
+03_04 Game/ zum Spiel gelangen
 
 ===============================================
-=== Ansichten, [31.10.16] ===
+=== Ansichten, [13.11.16] ===
 ===============================================
 
 == Index ==
-
 I - Log_In_Maske
+
+== Registrierung ==
 II - Registrierungs_Maske
-III - Menü
+
+== Optionen ==
+IX - Optionen
+
+== Highscore ==
+x - Highscore
 
 == GameView ==
 
-IV - Infos
-V - Spielfelder
-VI - Türme
-VII - Optionen
-VIII - Itemverwaltung
-IX - Fähigkeiten
+
+III - Spielfelder
+IV - Türme
+VI - Spiele-Optionen
+V - Fähigkeiten

@@ -1,5 +1,5 @@
 ==============================================================================
-	=== Simulation: Piraten? Panik! , v_0.2, 2016-10-30 ===
+	=== Simulation: Piraten? Panik! , v_0.2, 2016-11-13 ===
 ==============================================================================
 
 //Zusammenfassung
@@ -39,7 +39,7 @@ Eigenschaften des Spielers:
 -Bebaute Felder reagieren auf annähernde Ziele
 -besiegte Gegner hinterlassen Gold
 -Funktion, die Gold einsammeln lässt
--Funktion, die den Spielfortschritt speichern lässt
+
 
 ===================================
 === Feedback Alpers, 2016-10-28 ===
